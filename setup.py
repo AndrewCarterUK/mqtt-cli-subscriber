@@ -35,7 +35,7 @@ setup(
 
     keywords='mqtt subscriber',
 
-    packages=['subscriber']
+    packages=['subscriber'],
 
     install_requires=['paho-mqtt'],
 
