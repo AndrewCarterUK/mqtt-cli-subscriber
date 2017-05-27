@@ -41,7 +41,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'subscriber=subscriber:main',
+            'mqtt-cli-subscriber=subscriber:main',
         ],
     },
 )
