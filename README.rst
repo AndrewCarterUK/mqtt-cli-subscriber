@@ -9,3 +9,13 @@ MQTT CLI Subscriber
 
 This tool allows subscription you to subscribe to messages from an MQTT broker
 and forward them to a command line tool of your choosing.
+
+Install
+-------
+
+``pip install mqtt-cli-subscriber``
+
+``mqtt-cli-subscriber -h``
+
+The program calls the provided command with two provided values, ``-t`` for the
+topic and ``-p`` for the message payload (base64 encoded).
