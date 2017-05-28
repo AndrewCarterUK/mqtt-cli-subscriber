@@ -39,6 +39,9 @@ setup(
 
     install_requires=['paho-mqtt'],
 
+    test_suite='nose.collector',
+    tests_require=['nose'],
+
     entry_points={
         'console_scripts': [
             'mqtt-cli-subscriber=subscriber:main',
